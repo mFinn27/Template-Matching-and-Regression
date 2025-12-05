@@ -24,5 +24,5 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py \
 --lr_backbone 0 \
 --lr_drop \
 --visualize \
---nowandb
+--nowandb \
 --multi_gpu
