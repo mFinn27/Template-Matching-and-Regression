@@ -1,7 +1,7 @@
 CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py \
 --project_name "Few-Shot Pattern Detection" \
---datapath /home/eunchan/datasets/FSC147 \
---logpath ./outputs/TMR_FSCD147 \
+--datapath /kaggle/input/fscd-147 \
+--logpath ./my_training_results/FSCD147 \
 --modeltype matching_net \
 --template_type roi_align \
 --dataset FSCD147 \

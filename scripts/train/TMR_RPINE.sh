@@ -1,7 +1,7 @@
 CUDA_VISIBLE_DEVICES=0,1,2,3 python main.py \
 --project_name "Few-Shot Pattern Detection" \
---datapath /home/eunchan/datasets/RPINE \
---logpath ./outputs/TMR_RPINE \
+--datapath /kaggle/input/datasets-rpine \
+--logpath ./my_training_results/RPINE \
 --modeltype matching_net \
 --template_type roi_align \
 --dataset RPINE \
