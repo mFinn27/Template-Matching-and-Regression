@@ -19,8 +19,8 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
 --NMS_cls_threshold 0.4 \
 --NMS_iou_threshold 0.5 \
 --fusion \
-#--visualize \
 --multi_gpu \
 --nowandb \
 --eval #\
 #--refine_box
+#--visualize \
