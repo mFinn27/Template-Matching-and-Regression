@@ -21,7 +21,8 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
 --fusion \
 --multi_gpu \
 --nowandb \
---image_size 512 \
+--image_size 320 \
+--precision 16 \
 --eval #\
 #--refine_box
 #--visualize \
